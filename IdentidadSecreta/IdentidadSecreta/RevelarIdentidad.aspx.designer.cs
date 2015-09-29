@@ -10,87 +10,69 @@
 namespace IdentidadSecreta {
     
     
-    public partial class _Default {
+    public partial class RevelarIdentidad {
         
         /// <summary>
-        /// Label1 control.
+        /// imgSuperheroe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Image imgSuperheroe;
         
         /// <summary>
-        /// txtNombreReal control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombreReal;
+        protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// Label2 control.
+        /// txtNombreSuper control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreSuper;
         
         /// <summary>
-        /// txtApellidoReal control.
+        /// Label6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtApellidoReal;
+        protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// Label3 control.
+        /// txtProfesionPublica control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.TextBox txtProfesionPublica;
         
         /// <summary>
-        /// txtMes control.
+        /// Label7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMes;
+        protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// Label4 control.
+        /// txtSuperpoder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-        
-        /// <summary>
-        /// txtCampoExtra control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCampoExtra;
-        
-        /// <summary>
-        /// btnObtener control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnObtener;
+        protected global::System.Web.UI.WebControls.TextBox txtSuperpoder;
     }
 }
