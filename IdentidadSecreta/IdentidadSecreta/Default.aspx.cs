@@ -181,7 +181,7 @@ namespace IdentidadSecreta
 
         protected void btnObtener_Click(object sender, EventArgs e)
         {
-            string _urlImagen = ObtenerImagenSuperheroe();
+            /*string _urlImagen = ObtenerImagenSuperheroe();
             string _nombreSuperheroe = ObtenerNombreSuperheroe();
             string _profesionPublica = ObtenerProfesionPublica();
             string _superpoder = ObtenerSuperpoder();
@@ -189,7 +189,7 @@ namespace IdentidadSecreta
             txtNombreSuper.Text = _nombreSuperheroe;
             txtProfesionPublica.Text = _profesionPublica;
             txtSuperpoder.Text = _superpoder;
-            imgSuperheroe.ImageUrl = _urlImagen;
+            imgSuperheroe.ImageUrl = _urlImagen;*/
         }
 
         private string ObtenerImagenSuperheroe()
