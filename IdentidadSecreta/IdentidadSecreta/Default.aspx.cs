@@ -208,7 +208,7 @@ namespace IdentidadSecreta
             int nroImagen = 1;
             string nombre = ObtenerNombreSuperheroe();
             string apellido = ObtenerApellidoSuperheroe();
-            nroImagen = (nombre.Length + apellido.Length)%11 + 1;
+            nroImagen = (nombre.Length + apellido.Length + 7)%11 + 1;
             string urlImagen = string.Format("Images/{0}.png", nroImagen);
             return urlImagen;
 
