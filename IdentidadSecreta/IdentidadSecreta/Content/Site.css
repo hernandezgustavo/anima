@@ -1,11 +1,9 @@
 ﻿html {
-    background-color: #e2e2e2;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #fff;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -101,8 +99,6 @@ h5, h6 {
 }
 
     .main-content {
-        padding-left: 10px;
-        /*padding-top: 30px;*/
     }
 
     .featured + .main-content {
@@ -529,12 +525,9 @@ tr.pager td {
     padding: 0 0.25em 0 0;
 }
 
-div.hero-result {
-    background-color: white;
-}
-
 div.user-data {
-    background-color: #efeeef;
+    background-color: #ECECEC;
+    padding-bottom: 30px;
 }
 
 div.row {
@@ -566,8 +559,7 @@ span.input-title {
 
 input.data-input {
     width: 393px;
-    height: 55px;
-    color: #fff;
+    height: 43px;
     border-radius: 6px;
     border: 1px solid #C9C9C9;
     margin-left: 200px;
@@ -584,4 +576,68 @@ input.btn-submit {
     width: 150px;
     height: 55px;
     background-color: #08B1B6;
+    margin: 0;
+}
+
+/* Revelar Identidad */
+
+div.hero-result {
+    background-color: white;
+    color: #C9C9C9;
+}
+
+div.row-name, div.row-power,
+div.row-profession {
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+div.row-bottom-line {
+    border-bottom-width: 1px;
+    border-bottom-color: #C9C9C9;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+}
+
+div.row-title {
+    margin: 40px 150px;
+    text-align: center;
+}
+
+span.result-title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+
+span.value-title {
+    color: #08B1B6;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+span.result-label {
+    display: block;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+div.row-name {
+    height: 200px;  
+}
+
+div.row-power {
+    
+}
+
+div.row-profession {
+    margin-top: 40px;
+}
+
+div.row-bottom {
+    
 }

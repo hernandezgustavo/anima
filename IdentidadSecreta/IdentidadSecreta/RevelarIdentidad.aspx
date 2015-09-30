@@ -2,20 +2,25 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
         <div class="hero-result">
-            <div>
-                <asp:Image ID="imgSuperheroe" Height="100px" BackColor="Blue" Width="100px" runat="server" />
+            
+            <div class="row-title row-bottom-line">
+                <span class="result-title">IDENTIDAD SECRETA</span>
             </div>
-            <div>
-                <asp:Label ID="Label5" Text="Nombre de superhéroe:" runat="server" />
-                <asp:TextBox ID="txtNombreSuper" runat="server" />
+            <div class="row-name">
+                <span class="value-title">NOMBRE</span>
+                <asp:Label runat="server" ID="Name1" CssClass="result-label">Prueba</asp:Label>                
+                <asp:Label runat="server" ID="Name2" CssClass="result-label">Prueba</asp:Label>
             </div>
-            <div>
-                <asp:Label ID="Label6" Text="Profesión pública:" runat="server" />
-                <asp:TextBox ID="txtProfesionPublica" runat="server" />
+            <div class="row-power row-bottom-line">
+                <span class="value-title">SUPERPODER</span>
+                <asp:Label runat="server" ID="SuperPower" CssClass="result-label">Prueba</asp:Label>
             </div>
-            <div>
-                <asp:Label ID="Label7" Text="Superpoder:" runat="server" />
-                <asp:TextBox ID="txtSuperpoder" runat="server" />
+            <div class="row-profession row-bottom-line">
+                <span class="value-title">PROFESION</span>
+                <asp:Label runat="server" ID="Profession" CssClass="result-label">Prueba</asp:Label>
+            </div>
+            <div class="row-bottom">
+                
             </div>
         </div>
 </asp:Content>
