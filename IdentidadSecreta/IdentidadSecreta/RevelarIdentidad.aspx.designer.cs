@@ -13,39 +13,48 @@ namespace IdentidadSecreta {
     public partial class RevelarIdentidad {
         
         /// <summary>
-        /// Name1 control.
+        /// lblNombre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Name1;
+        protected global::System.Web.UI.WebControls.Label lblNombre;
         
         /// <summary>
-        /// Name2 control.
+        /// lblApellido control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Name2;
+        protected global::System.Web.UI.WebControls.Label lblApellido;
         
         /// <summary>
-        /// SuperPower control.
+        /// imgSuperheroe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SuperPower;
+        protected global::System.Web.UI.WebControls.Image imgSuperheroe;
         
         /// <summary>
-        /// Profession control.
+        /// lblSuperpoder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Profession;
+        protected global::System.Web.UI.WebControls.Label lblSuperpoder;
+        
+        /// <summary>
+        /// lblProfesion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProfesion;
     }
 }

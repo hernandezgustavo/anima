@@ -181,20 +181,37 @@ namespace IdentidadSecreta
 
         protected void btnObtener_Click(object sender, EventArgs e)
         {
-            /*string _urlImagen = ObtenerImagenSuperheroe();
+            string _urlImagen = ObtenerImagenSuperheroe();
             string _nombreSuperheroe = ObtenerNombreSuperheroe();
+            string _apellidoSuperheroe = ObtenerApellidoSuperheroe();
             string _profesionPublica = ObtenerProfesionPublica();
             string _superpoder = ObtenerSuperpoder();
+            string urlRedirect = string.Format("RevelarIdentidad.aspx?urlImagen={0}&nombreSuperheroe={1}&profesionPublica={2}&superpoder={3}&apellidoSuperheroe={4}",
+                _urlImagen, _nombreSuperheroe, _profesionPublica, _superpoder, _apellidoSuperheroe);
+            Response.Redirect(urlRedirect);
+            
+        }
 
-            txtNombreSuper.Text = _nombreSuperheroe;
-            txtProfesionPublica.Text = _profesionPublica;
-            txtSuperpoder.Text = _superpoder;
-            imgSuperheroe.ImageUrl = _urlImagen;*/
+        private string ObtenerApellidoSuperheroe()
+        {
+            string valor2 = string.Empty;
+
+            string clave2 = txtApellidoReal.Text.Length > 0 ? txtApellidoReal.Text[0].ToString().ToUpper().Trim() : string.Empty;
+
+            apellidoSuperheroe.TryGetValue(clave2, out valor2);
+
+            return valor2;
         }
 
         private string ObtenerImagenSuperheroe()
         {
-            return "Images/hero-ilustrations06.jpg";
+            int nroImagen = 1;
+            string nombre = ObtenerNombreSuperheroe();
+            string apellido = ObtenerApellidoSuperheroe();
+            nroImagen = (nombre.Length + apellido.Length)%11 + 1;
+            string urlImagen = string.Format("Images/{0}.png", nroImagen);
+            return urlImagen;
+
         }
 
         private string ObtenerSuperpoder()
@@ -224,15 +241,12 @@ namespace IdentidadSecreta
         private string ObtenerNombreSuperheroe()
         {
             string valor1 = string.Empty;
-            string valor2 = string.Empty;
 
             string clave1 = txtNombreReal.Text.Length > 0 ? txtNombreReal.Text[0].ToString().ToUpper().Trim() : string.Empty;
-            string clave2 = txtApellidoReal.Text.Length > 0 ? txtApellidoReal.Text[0].ToString().ToUpper().Trim() : string.Empty;
-
+            
             nombreSuperheroe.TryGetValue(clave1, out valor1);
-            apellidoSuperheroe.TryGetValue(clave2, out valor2);
-
-            return valor1 + " " + valor2;
+            
+            return valor1;
         }
     }
 }

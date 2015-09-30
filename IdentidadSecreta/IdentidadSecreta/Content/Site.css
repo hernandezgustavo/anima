@@ -91,7 +91,7 @@ h5, h6 {
 ----------------------------------------------------------*/
 .content-wrapper {
     margin: 0 auto;
-    max-width: 793px;
+    max-width: 800px;
 }
 
 #body {
@@ -573,7 +573,7 @@ input.btn-submit {
     border-radius: 6px;
     border: 1px solid #C9C9C9;
     color: white;
-    width: 150px;
+    width: 200px;
     height: 55px;
     background-color: #08B1B6;
     margin: 0;
@@ -590,6 +590,7 @@ div.row-name, div.row-power,
 div.row-profession {
     margin-bottom: 20px;
     margin-left: 150px;
+    margin-right: 150px;
 }
 
 div.row-bottom-line {
@@ -627,7 +628,7 @@ span.result-label {
 }
 
 div.row-name {
-    height: 200px;  
+    height: 160px;  
 }
 
 div.row-power {
@@ -640,4 +641,17 @@ div.row-profession {
 
 div.row-bottom {
     
+}
+
+.circular {
+	width: 180px;
+	height: 180px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    background-color: blue;
+    position: fixed;
+    left: 800px;
+    top: 100px;
+	/*background: url(http://link-to-your/image.jpg) no-repeat;*/
 }

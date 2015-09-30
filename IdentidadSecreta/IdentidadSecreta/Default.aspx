@@ -15,7 +15,7 @@
         </div>
         <div class="row">
             <asp:Label ID="Label3" Text="Mes:" runat="server" CssClass="input-title" />
-            <asp:TextBox ID="txtMes" runat="server" CssClass="data-input data-input-mes" />
+            <asp:TextBox ID="txtMes" runat="server" CssClass="data-input" />
         </div>
         <div class="row">
             <asp:Label ID="Label4" Text="Otro Campo:" runat="server" CssClass="input-title" />
@@ -23,7 +23,7 @@
         </div>
         <div class="row" style="margin-top: 17px;">
             <div style="width: 405px; margin-left: 200px; text-align: right; padding-top: 17px;">
-                <asp:Button ID="btnObtener" Text="Go!" CssClass="btn-submit" OnClick="btnObtener_Click" runat="server" />
+                <asp:Button ID="btnObtener" Text="Obtener Identidad" CssClass="btn-submit" OnClick="btnObtener_Click" runat="server" />
             </div>
         </div>
     </div>
